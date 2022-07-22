@@ -37,9 +37,6 @@
 |  1.	|[0-what-is-my-pid](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/0-what-is-my-pid) | A Bash script that displays its own PID. |
 |  2.   |[1-list_your_processes](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/1-list_your_processes) | A Bash script that displays a list of currently running processes. |
 |  3.   |[2-show_your_bash_pid](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/2-show_your_bash_pid) | A Bash script that displays lines containing the ``bash`` word, thus allowing you to easily get the PID of your Bash process. <ul><li>The third line of your script must be ``# shellcheck disable=SC2009`` (for more info about ignoring shellcheck error [here](https://github.com/koalaman/shellcheck/wiki/Ignore))</li></ul>|
-|  4.   |[3-show_your_bash_pid_made_easy](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/3-show_your_bash_pid_made_easy) | A Bash script that displays the PID, along with the process name, of processes
-	* bash PID
-	* script PID (3-show_your_bash_pid_made_easy)
-whose name contain the word bash. |
+|  4.   |[3-show_your_bash_pid_made_easy](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/3-show_your_bash_pid_made_easy) | A Bash script that displays the PID, along with the process name, of processes; <ul><li>bash PID </li><li>script PID (3-show_your_bash_pid_made_easy)</li></ul>whose name contain the word bash. |
 |  5.   |[4-to_infinity_and_beyond](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/4-to_infinity_and_beyond) | A Bash script that displays ``To infinity and beyond`` indefinitely.  |
 |  6.   |[5-dont_stop_me_now](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/5-dont_stop_me_now) | A Bash script that stops ``4-to_infinity_and_beyond`` process. |
