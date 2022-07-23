@@ -45,18 +45,8 @@
 |  5.   |[4-to_infinity_and_beyond](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/4-to_infinity_and_beyond) | A Bash script that displays ``To infinity and beyond`` indefinitely.  |
 |  6.   |[5-dont_stop_me_now](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/5-dont_stop_me_now) | A Bash script that stops ``4-to_infinity_and_beyond`` process. |
 |  7.   |[6-stop_me_if_you_can](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/6-stop_me_if_you_can) | A Bash script that stops ``4-to_infinity_and_beyond`` process, without using ``kill`` or ``killall`` flag. |
-|  8.   |[7-highlander](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/7-highlander) | 
-* A Bash script that displays:
-	* ``To infinity and beyond`` indefinitely
-	* With a ``sleep 2`` in between each iteration
-	* ``I am invincible!!!`` when receiving a ``SIGTERM`` signal |
+|  8.   |[7-highlander](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/7-highlander) | A Bash script that displays: <ul><li> ``To infinity and beyond`` indefinitely</li><li>With a ``sleep 2`` in between each iteration</li><li> ``I am invincible!!!`` when receiving a ``SIGTERM`` signal</li></ul> |
 |  9.   |[8-beheaded_process](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/8-beheaded_process) | A a Bash script that kills the process ``7-highlander``. |
-|  10.   |[100-process_and_pid_file](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/100-process_and_pid_file) | 
-* A Bash script that:
-	* Creates the file ``/var/run/myscript.pid`` containing its PID
-	* Displays ``To infinity and beyond`` indefinitely
-	* Displays ``I hate the kill command`` when receiving a SIGTERM signal
-	* Displays ``Y U no love me?!`` when receiving a SIGINT signal
-	* Deletes the file ``/var/run/myscript.pid`` and terminates itself when receiving a SIGQUIT or SIGTERM signal  |
+|  10.   |[100-process_and_pid_file](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/100-process_and_pid_file) | A Bash script that: <ul><li>Creates the file ``/var/run/myscript.pid`` containing its PID</li><li>Displays ``To infinity and beyond`` indefinitely</li><li>Displays ``I hate the kill command`` when receiving a SIGTERM signal</li><li>Displays ``Y U no love me?!`` when receiving a SIGINT signal</li><li>Deletes the file ``/var/run/myscript.pid`` and terminates itself when receiving a SIGQUIT or SIGTERM signal</li></ul>  |
 |  101.   |[101-manage_my_process](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/101-manage_my_process) | A Bash (init) script ``101-manage_my_process`` that manages ``manage_my_process``.  |
 |  102.   |[102-zombie.c](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x05-processes_and_signals/102-zombie.c) | A C program that creates 5 [zombie processes](https://zombieprocess.wordpress.com/what-is-a-zombie-process/). |
