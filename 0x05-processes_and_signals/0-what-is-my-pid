@@ -3,4 +3,6 @@
 
 # echo "$$" | pgrep bash | awk '{print $1}'
 #OR
-echo "&&"  # OR ps | pgrep bash | awk '{print $1}'
+# ps | pgrep bash | awk '{print $1}'
+
+echo "$$"
