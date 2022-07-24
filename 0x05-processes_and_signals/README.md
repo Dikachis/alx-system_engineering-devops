@@ -15,7 +15,7 @@
 * All files end with a new line
 * There is a ``README.md`` file, at the root of the folder of the project
 * All Bash script files are executable
-* Not allowed to use ``awk``
+* Not allowed to use [awk](https://www.cyberciti.biz/faq/bash-scripting-using-awk/)
 * Bash script pass ``Shellcheck (version 0.7.0)`` without any error
 * The first line of all Bash scripts are exactly ``#!/usr/bin/env bash``
 * The second line of all the Bash scripts has comment explaining what the script doing
