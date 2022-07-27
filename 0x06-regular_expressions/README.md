@@ -31,6 +31,8 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 * [Ruby - Regular Expressions](https://www.tutorialspoint.com/ruby/ruby_regular_expressions.htm)
 * [RegExp Object](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 * [PHP/Javascript/Python: https://regex101.com/](https://regex101.com/)
+* [Regular Expressions in you-tube](https://www.youtube.com/watch?v=rhzKDrUiJVk)
+* [Regular Expressions (RegEx) in you-tube](https://www.youtube.com/watch?v=sXQxhojSdZM)
 
 ## Files & Description
 |  S/N	|	File	|	Description	|
