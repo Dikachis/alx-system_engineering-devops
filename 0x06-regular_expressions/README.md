@@ -32,7 +32,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 * [RegExp Object](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 * [PHP/Javascript/Python: https://regex101.com/](https://regex101.com/)
 * [Regular Expressions in you-tube](https://www.youtube.com/watch?v=rhzKDrUiJVk)
-* [Regular Expressions (RegEx) in you-tube](https://www.youtube.com/watch?v=sXQxhojSdZM)
+* [Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text](https://www.youtube.com/watch?v=sa-TUpSx1JA)
 
 ## Files & Description
 |  S/N	|	File	|	Description	|
