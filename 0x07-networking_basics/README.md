@@ -40,8 +40,8 @@
 * The second line of all the Bash scripts has comment explaining what the script doing
 ### More info
 * The second line of all your Bash scripts should be a comment explaining what is the script doing
-* For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example:
-<ul><li>**What is the most important position in a software company?**<ol><li>Project manager</li><li>Backend developer</li><li>System administrator</li></ol></ul>
+* For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example: 
+* **What is the most important position in a software company?**<ol><li>Project manager</li><li>Backend developer</li><li>System administrator</li></ol>
 
 ```
 sylvain@ubuntu$ cat foo_answer_file
@@ -61,8 +61,4 @@ sylvain@ubuntu$
 ## Files & Description
 |  S/N	|	File	|	Description	|
 |:-----:|---------------|-----------------------|
-|  1.	|[0-OSI_model](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x07-networking_basics/0-OSI_model) | Questions: 
-* What is the OSI model?
-<ol><li>Set of specifications that network hardware manufacturers must respect</li><li>The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology</li><li>The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology</li></ol>
-* How is the OSI model organized?
-<ol><li>Alphabetically</li><li>From the lowest to the highest level</li><li>Randomly</li></ol> |
+|  1.	|[0-OSI_model](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/0x07-networking_basics/0-OSI_model) | Questions: <ol>What is the OSI model?<li>Set of specifications that network hardware manufacturers must respect</li><li>The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology</li><li>The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology</li></ol><ol>How is the OSI model organized?<li>Alphabetically</li><li>From the lowest to the highest level</li><li>Randomly</li></ol> |
