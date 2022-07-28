@@ -54,6 +54,8 @@ sylvain@ubuntu$
 * [OSI model](https://en.wikipedia.org/wiki/OSI_model)
 * [OSI Model Explained on youtube](https://www.youtube.com/watch?v=LANW3m7UgWs)
 * [OSI Model Explained further on youtube](https://www.youtube.com/watch?v=vv4y_uOneC0)
+* [The OSI Model - Explained by Example](https://www.youtube.com/watch?v=7IS7gigunyI)
+* [What is osi model in networking](https://www.youtube.com/watch?v=Ca1jnqwqzg0)
 
 ### man or help:
 ``netstat``, ``ping``
