@@ -41,8 +41,8 @@
 ### More info
 * The second line of all your Bash scripts should be a comment explaining what is the script doing
 * For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example:
-* **What is the most important position in a software company?**
-<ol><li>Project manager</li><li>Backend developer</li><li>System administrator</li></ol>
+<ul><li>**What is the most important position in a software company?**<ol><li>Project manager</li><li>Backend developer</li><li>System administrator</li></ol></ul>
+
 ```
 sylvain@ubuntu$ cat foo_answer_file
 3
