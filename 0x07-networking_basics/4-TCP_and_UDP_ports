@@ -7,5 +7,4 @@
 # OR
 # netstat -lp
 # OR
-# netstat -ltup
-go
+netstat -ltup
