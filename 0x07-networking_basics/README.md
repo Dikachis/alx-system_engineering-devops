@@ -56,9 +56,10 @@ sylvain@ubuntu$
 * [OSI Model Explained further on youtube](https://www.youtube.com/watch?v=vv4y_uOneC0)
 * [The OSI Model - Explained by Example](https://www.youtube.com/watch?v=7IS7gigunyI)
 * [What is osi model in networking](https://www.youtube.com/watch?v=Ca1jnqwqzg0)
+* [Check listening ports with netstat](https://docs.rackspace.com/support/how-to/checking-listening-ports-with-netstat/)
 
 ### man or help:
-``netstat``, ``ping``
+[netstat](https://docs.rackspace.com/support/how-to/checking-listening-ports-with-netstat/), ``ping``
 
 ## Files & Description
 |  S/N	|	File	|	Description	|
