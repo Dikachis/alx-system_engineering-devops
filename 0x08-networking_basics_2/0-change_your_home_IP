@@ -6,4 +6,4 @@
 cp /etc/hosts new_hosts
 sed -i s/^127.*/"127.0.0.2 localhost"/ new_hosts
 echo "8.8.8.8 facebook.com" >> new_hosts
-cp new_hosts /etc/hosts
+cp -f ~/new_hosts /etc/hosts
