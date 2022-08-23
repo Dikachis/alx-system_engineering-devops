@@ -10,4 +10,5 @@
 
 ### resource text
 * [CODE A PING SWEEP SCRIPT IN LINUX IN 5 MINUTES](https://nudesystems.com/code-a-ping-sweep-script-in-linux-in-5-minutes/)
-
+* [hostnamectl command in Linux](https://www.geeksforgeeks.org/hostnamectl-command-in-linux-with-examples/)
+* [solved problems & practice](https://practice.geeksforgeeks.org/explore?page=1&category[]=Linked%20List&sortBy=submissions&utm_source=gfg&utm_medium=search-bar&utm_campaign=practice-search)
