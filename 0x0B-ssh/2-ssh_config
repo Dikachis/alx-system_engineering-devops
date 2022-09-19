@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 # ssh config file
-Host 44.197.103.61
+# Host 44.197.103.61
+# IdentityFile ~/.ssh/school
+# PasswordAuthentication no
+
+# OR
+# Config file
+Host *
+SendEnv LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials no
 IdentityFile ~/.ssh/school
 PasswordAuthentication no
