@@ -10,6 +10,6 @@
 # PasswordAuthentication no
 
 OR
-Host 18.204.48.150
+Host 3.238.95.27
 IdentityFile ~/.ssh/school
 PasswordAuthentication no
