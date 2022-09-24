@@ -7,8 +7,7 @@
 # (requesting a page) using curl, it must return a page
 # that contains the string Hello world!
 
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install nginx -y
-sudo service nginx start
-echo "Hello World!" | tee /var/www/html/index.nginx-debian.html
+sudo apt update
+sudo apt install -y nginx
+sudo ufw allow 'Nginx HTTP'
+echo "Hello World!" | sudo tee /var/www/html/index.html
