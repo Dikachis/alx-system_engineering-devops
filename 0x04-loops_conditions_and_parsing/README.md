@@ -36,6 +36,7 @@ For every feedback, **Shellcheck** will provide a code that you can use to get m
 * [Windows users (To Generate RSA keys with SSH by using PuTTYgen)](https://docs.rackspace.com/support/how-to/generating-rsa-keys-with-ssh-puttygen/)
 * [Generate an SSH Key Pair on UNIX and UNIX-Like Systems](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html)
 * [How to Create a Public/Private Key Pair](https://docs.oracle.com/cd/E19683-01/806-4078/6jd6cjru7/index.html)
+* [SSH login without password](http://linuxproblem.org/art_9.html)
 
 ## Files & Description
 |  S/N	|	File	|	Description	|
