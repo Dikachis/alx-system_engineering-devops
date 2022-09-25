@@ -1,5 +1,18 @@
-# configures nginx on a server
-$config = "server {
+#!/usr/bin/env bash
+# sets up a new 404 error page that contains
+# the string: Ceci n'est pas une page.
+
+sudo apt update
+sudo apt install -y nginx
+sudo ufw allow 'Nginx HTTP'
+echo "Hello World!" | sudo tee /var/www/html/index.html
+# OR
+# echo "Hello World!" > index.html
+# sudo mv index.html /var/www/html
+
+echo "Ceci n'est pas une page" > 404.html
+sudo mv 404.html /var/www/html
+echo "server {
 	listen 80 default_server;
         listen [::]:80 default_server;
 
@@ -9,25 +22,13 @@ $config = "server {
         location /redirect_me {
                 return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
         }
-}"
+	
+	error_page 404 /404.html;
+	location = /404.html{
+	internal;
+	}
 
-package { 'nginx':
-ensure	=> 'installed',
-}
+}" > default
 
-file { 'index.html':
-ensure	=> 'present',
-path	=> '/var/www/html/index.html',
-content	=> 'Hello World!',
-mode	=> '0644'
-}
-
-file { 'server_config':
-ensure	=> 'present',
-path 	=> '/etc/nginx/sites-available/default',
-content => $config
-}
-
-exec { 'service nginx restart':
-path	=> ['/usr/sbin', '/usr/bin']
-}
+sudo mv -f default /etc/nginx/sites-available/default
+sudo service nginx restart
