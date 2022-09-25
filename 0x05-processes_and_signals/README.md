@@ -29,7 +29,7 @@
 * [Linux PID](http://www.linfo.org/pid.html)
 * [Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)
 * [Linux signal](https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/)
-* [Linux signals](https://www.computerhope.com/unix/signals.htm)
+* [more aabout Linux signals](https://www.computerhope.com/unix/signals.htm)
 * [Ampersands & on the command line](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
 * [init.d](https://www.ghacks.net/2009/04/04/get-to-know-linux-the-etcinitd-directory/)
 * [Daemon](https://en.wikipedia.org/wiki/Daemon_%28computing%29)
