@@ -1,33 +1,32 @@
 #!/usr/bin/env bash
-# install nginx server and configure it to port 80, set the redirect_me page, 404 not found page and the X-served-By header
+# sets up a new 404 error page that contains
+# the string: Ceci n'est pas une page.
+
 sudo apt update
 sudo apt install -y nginx
+sudo ufw allow 'Nginx HTTP'
+echo "Hello World!" | sudo tee /var/www/html/index.html
+# OR
+# echo "Hello World!" > index.html
+# sudo mv index.html /var/www/html
 
-mkdir -p /var/www/html
-touch /var/www/html/index.html
-echo "Hello World!" > /var/www/html/index.html
-touch /var/www/html/404.html
-echo "Ceci n'est pas une page" > /var/www/html/404.html
-
-printf %s "server {
-        listen 80;
+echo "Ceci n'est pas une page" > 404.html
+sudo mv 404.html /var/www/html
+echo "server {
+        listen 80 default_server;
         listen [::]:80 default_server;
-
         add_header X-Served-By $HOSTNAME;
-
         root /var/www/html;
         index index.html;
-
-        location /redirect_me{
-            return 301 https://www.github.com/Dikachis;
+        location /redirect_me {
+                return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
         }
 
         error_page 404 /404.html;
-        location /404{
-            root /var/www/html/;
-            internal;
+        location = /404.html{
+        internal;
         }
+}" > default
 
-}" > /etc/nginx/sites-available/default
-
+sudo mv -f default /etc/nginx/sites-available/default
 sudo service nginx restart
