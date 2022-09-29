@@ -15,8 +15,8 @@ printf %s "server {
 
         add_header X-Served-By $HOSTNAME;
 
-        root /var/www/html/;
-        index index.html index.htm index.html-debian.html;
+        root /var/www/html;
+        index index.html;
 
         location /redirect_me{
             return 301 https://www.github.com/Dikachis;
