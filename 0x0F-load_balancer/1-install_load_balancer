@@ -5,7 +5,7 @@ sudo apt-get install --no-install-recommends software-properties-common
 sudo add-apt-repository ppa:vbernat/haproxy-2.6
 sudo apt-get install haproxy=2.6.\*
 
-echo %s "
+printf %s "
 backend web-backend
         balance roundrobin
         option forwardfor
@@ -16,9 +16,5 @@ frontend proxynode
         mode http
         default_backend web-backend
 " >> /etc/haproxy/haproxy.cfg
-
-echo %s "
-ENABLED=1
-" >> /etc/default/haproxy
 
 sudo service haproxy restart
