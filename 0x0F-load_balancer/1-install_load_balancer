@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # Install and configure HAproxy on your load balancer server
 
-ufw allow 1344
-apt-get -y update
-apt-get install -y haproxy
+apt-get update
+apt-get install haproxy=2.0.\*
 
 printf %s "
 backend web-backend
