@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# install nginx server and configure it to port 80, set the redirect_me page, 404 not found page and the X-served-By header
+# install nginx server and configure it to port 80, set the redirect_me page,
 
 sudo apt update
 sudo apt install -y nginx
