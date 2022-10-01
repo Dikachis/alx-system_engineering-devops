@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Debbugging web server
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default ; sed -i 's/ ipv6only=on//g' /etc/nginx/sites-enabled/default
-sed -i 's/ ipv6only=on//g' /etc/nginx/sites-available/default
-sudo service nginx restart
+# Fixes the nginx listening port and reloads the nginx master process
+sed -i 's/listen 8080/listen 80/g' /etc/nginx/sites-enabled/default
+sed -i 's/listen \[::\]:8080/listen \[::\]:80/g' /etc/nginx/sites-enabled/default
+service nginx restart
