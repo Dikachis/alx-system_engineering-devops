@@ -22,3 +22,13 @@ exec { 'restart Nginx':
   provider => shell,
   command  => 'sudo service nginx restart',
 }
+
+# OR    (combine all the steps above together)
+# configures nginx on a server
+# exec { 'setup_nginx':
+#   provider    => shell,
+#   environment => ["HOST=${hostname}"],
+#   command     => 'apt-get -y update; apt-get -y install nginx;
+#   sudo sed -i "/server {/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default;
+#   service nginx restart'
+# }
