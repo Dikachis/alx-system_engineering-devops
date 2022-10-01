@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Debugging the same web server with even shorter code
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default # find /etc/nginx/*/. -type f -exec sed -i 's/ ipv6only=on//g' {} \;
-service nginx restart
-kill -9 "$(cat /run/nginx.pid)"
+# Command to make an nginx server listen on port 80, shorter version
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+pkill -1 nginx
