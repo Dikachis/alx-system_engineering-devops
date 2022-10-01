@@ -1,2 +1,5 @@
-#!/usr/bin/env bashi
-# Command to make an nginx server listen on port 80
+#!/usr/bin/env bash
+# Debbugging web server
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default; sed -i 's/ ipv6only=on//g' /etc/nginx/sites-enabled/default
+sed -i 's/ ipv6only=on//g' /etc/nginx/sites-available/default
+service nginx restart
