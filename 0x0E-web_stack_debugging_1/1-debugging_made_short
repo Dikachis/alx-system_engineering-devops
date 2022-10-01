@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Debugging the same web server with even shorter code
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default # find /etc/nginx/*/. -type f -exec sed -i 's/ ipv6only=on//g' {} \;
+service nginx restart
+kill -9 "$(cat /run/nginx.pid)"
