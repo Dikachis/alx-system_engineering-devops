@@ -23,7 +23,7 @@ exec { 'restart Nginx':
   command  => 'sudo service nginx restart',
 }
 
-# OR    (combine all the steps above)
+# OR    (combine all the steps above together)
 # configures nginx on a server
 # exec { 'setup_nginx':
 #   provider    => shell,
