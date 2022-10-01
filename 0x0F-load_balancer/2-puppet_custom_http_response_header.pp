@@ -1,5 +1,5 @@
 # configures nginx on a server
-exec { 'setup_nginx':
+{ 'setup_nginx':
   provider    => shell,
   environment => ["HOST=${hostname}"],
   command     => 'apt-get -y update; apt-get -y install nginx;
