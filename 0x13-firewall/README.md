@@ -65,7 +65,9 @@ COMMIT
 ```
 Save and close the file (/etc/ufw/before.rules).
 - **Step 3: Open file (/etc/ufw/sysctl.conf):**
-``$ sudo vi /etc/ufw/sysctl.conf``
+``
+$ sudo vi /etc/ufw/sysctl.conf
+``
 - **Step 4: Edit file (/etc/ufw/sysctl.conf):** <br>
 ``Find where there is the following comments:``<br>
 #Uncomment this to allow this host to route packets between interfaces<br>
