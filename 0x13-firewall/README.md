@@ -79,4 +79,4 @@ $ sudo vi /etc/ufw/sysctl.conf
 net/ipv4/ip_forward=1<br>
 net/ipv6/conf/default/forwarding=1<br>
 net/ipv6/conf/all/forwarding=1
-- That's all, now you're good to go...
+- **That's all, now you're good to go...**
