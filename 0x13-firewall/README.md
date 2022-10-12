@@ -48,10 +48,10 @@ Note that the school network is filtering outgoing connections (via a network-ba
 # Files & Description
 | File | Description|
 |------|------------|
-|1: 0-block_all_incoming_traffic_but| Let’s install the ufw firewall and setup a few rules on ``web-01``. Configure ufw so that it blocks all incoming traffic, except the following TCP ports: ``22`` (SSH), ``443`` (HTTPS SSL), and ``80`` (HTTP). Share the ``ufw`` commands that you used in your answer file (0-block_all_incoming_traffic_but).|
-|2: 100-port_forwarding | Firewalls can not only filter requests, they can also forward them. Configure ``web-01`` so that its firewall redirects port ``8080/TCP`` to port ``80/TCP``. Your answer file should be a copy of the ``ufw`` configuration file that you modified to make this happen.|
+|0-block_all_incoming_traffic_but| Let’s install the ufw firewall and setup a few rules on ``web-01``. Configure ufw so that it blocks all incoming traffic, except the following TCP ports: ``22`` (SSH), ``443`` (HTTPS SSL), and ``80`` (HTTP). Share the ``ufw`` commands that you used in your answer file (0-block_all_incoming_traffic_but).|
+|100-port_forwarding | Firewalls can not only filter requests, they can also forward them. Configure ``web-01`` so that its firewall redirects port ``8080/TCP`` to port ``80/TCP``. Your answer file should be a copy of the ``ufw`` configuration file that you modified to make this happen.|
 
-### Procedure for task 1:
+### Procedure for the task (100-port_forwarding):
 - **Step 1: You need to edit file (/etc/ufw/before.rules):**
 ```
 $ sudo vi /etc/ufw/before.rules
