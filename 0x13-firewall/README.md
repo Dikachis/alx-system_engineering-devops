@@ -66,12 +66,12 @@ Save and close the file (/etc/ufw/before.rules).
 ``$ sudo vi /etc/ufw/sysctl.conf``
 - **Step 4: Edit file (/etc/ufw/sysctl.conf):**
 - Find where there is the following comments:
-	- # Uncomment this to allow this host to route packets between interfaces
-	- #net/ipv4/ip_forward=1
-	- #net/ipv6/conf/default/forwarding=1
-	- #net/ipv6/conf/all/forwarding=1
+# Uncomment this to allow this host to route packets between interfaces
+#net/ipv4/ip_forward=1
+#net/ipv6/conf/default/forwarding=1
+#net/ipv6/conf/all/forwarding=1
 - Uncomment line 2, 3, 4 this way:
-	- # Uncomment this to allow this host to route packets between interfaces
-	- net/ipv4/ip_forward=1
-	- net/ipv6/conf/default/forwarding=1
-	- net/ipv6/conf/all/forwarding=1
+# Uncomment this to allow this host to route packets between interfaces
+net/ipv4/ip_forward=1
+net/ipv6/conf/default/forwarding=1
+net/ipv6/conf/all/forwarding=1
