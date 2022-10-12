@@ -70,7 +70,7 @@ Save and close the file (/etc/ufw/before.rules).
 #net/ipv4/ip_forward=1<br>
 #net/ipv6/conf/default/forwarding=1<br>
 #net/ipv6/conf/all/forwarding=1<br>
-``<p>Uncomment line 2, 3, 4 this way:</p>``<br>
+``Uncomment line 2, 3, 4 this way:``<br>
 #Uncomment this to allow this host to route packets between interfaces<br>
 net/ipv4/ip_forward=1<br>
 net/ipv6/conf/default/forwarding=1<br>
