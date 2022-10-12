@@ -64,13 +64,13 @@ COMMIT
 Save and close the file (/etc/ufw/before.rules).
 - **Step 3: Open file (/etc/ufw/sysctl.conf):**
 ``$ sudo vi /etc/ufw/sysctl.conf``
-- **Step 4: Edit file (/etc/ufw/sysctl.conf):**
-- Find where there is the following comments:
+- **Step 4: Edit file (/etc/ufw/sysctl.conf):** <br>
+Find where there is the following comments:
 <p># Uncomment this to allow this host to route packets between interfaces</p>
 <p>#net/ipv4/ip_forward=1</p>
 <p>#net/ipv6/conf/default/forwarding=1</p>
-<p>#net/ipv6/conf/all/forwarding=1</p>
-- Uncomment line 2, 3, 4 this way:
+<p>#net/ipv6/conf/all/forwarding=1</p><br>
+Uncomment line 2, 3, 4 this way:
 <p># Uncomment this to allow this host to route packets between interfaces</p>
 <p>net/ipv4/ip_forward=1</p>
 net/ipv6/conf/default/forwarding=1
