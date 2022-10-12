@@ -53,7 +53,9 @@ Note that the school network is filtering outgoing connections (via a network-ba
 
 ### Procedure for task 1:
 - **Step 1: You need to edit file (/etc/ufw/before.rules):**
-``$ sudo vi /etc/ufw/before.rules``
+```
+$ sudo vi /etc/ufw/before.rules
+```
 - **Step 2: Next configure ufw to redirect http traffic to another (LAN) IP:port. At the top file, append:**
 ```
 $ *nat
