@@ -40,13 +40,10 @@ We can see that the connection never succeeds, so after some time I just use ``c
 This can be used not just for this exercise, but for any debugging situation where two pieces of software need to communicate over sockets.
 
 Note that the school network is filtering outgoing connections (via a network-based firewall), so you might not be able to interact with certain ports on servers outside of the school network. To test your work on ``web-01``, please perform the test from outside of the school network, like from your ``web-02`` server. If you SSH into your ``web-02`` server, the traffic will be originating from ``web-02`` and not from the school’s network, bypassing the firewall.
-```
-**Warning!**
 
-Containers on demand cannot be used for this project (Docker container limitation)
-
-Be very careful with firewall rules! For instance, if you ever deny port 22/TCP and log out of your server, you will not be able to reconnect to your server via SSH, and we will not be able to recover it. When you install UFW, port 22 is blocked by default, so you should unblock it immediately before logging out of your server.
-```
+### Warning!
+**Containers on demand cannot be used for this project (Docker container limitation).**
+**Be very careful with firewall rules! For instance, if you ever deny port 22/TCP and log out of your server, you will not be able to reconnect to your server via SSH, and we will not be able to recover it. When you install UFW, port 22 is blocked by default, so you should unblock it immediately before logging out of your server.**
 
 # Files & Description
 | File | Description|
@@ -55,9 +52,9 @@ Be very careful with firewall rules! For instance, if you ever deny port 22/TCP 
 |2: 100-port_forwarding | Firewalls can not only filter requests, they can also forward them. Configure ``web-01`` so that its firewall redirects port ``8080/TCP`` to port ``80/TCP``. Your answer file should be a copy of the ``ufw`` configuration file that you modified to make this happen.|
 
 ### Procedure for task 1:
-**Step 1: You need to edit file (/etc/ufw/before.rules):**
+- **Step 1: You need to edit file (/etc/ufw/before.rules):**
 ``$ sudo vi /etc/ufw/before.rules``
-**Step 2: Next configure ufw to redirect http traffic to another (LAN) IP:port. At the top file, append:**
+- **Step 2: Next configure ufw to redirect http traffic to another (LAN) IP:port. At the top file, append:**
 ```
 $ *nat
 :PREROUTING ACCEPT [0:0]
@@ -65,15 +62,15 @@ $ *nat
 COMMIT
 ```
 Save and close the file (/etc/ufw/before.rules).
-**Step 3: Open file (/etc/ufw/sysctl.conf):**
+- **Step 3: Open file (/etc/ufw/sysctl.conf):**
 ``$ sudo vi /etc/ufw/sysctl.conf``
-**Step 4: Edit file (/etc/ufw/sysctl.conf):**
-Find where there is the following comments:
+- **Step 4: Edit file (/etc/ufw/sysctl.conf):**
+- Find where there is the following comments:
 	- # Uncomment this to allow this host to route packets between interfaces
 	- #net/ipv4/ip_forward=1
 	- #net/ipv6/conf/default/forwarding=1
 	- #net/ipv6/conf/all/forwarding=1
-Uncomment line 2, 3, 4 this way:
+- Uncomment line 2, 3, 4 this way:
 	- # Uncomment this to allow this host to route packets between interfaces
 	- net/ipv4/ip_forward=1
 	- net/ipv6/conf/default/forwarding=1
