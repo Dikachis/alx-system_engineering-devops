@@ -12,6 +12,7 @@
 - [#Setting Up a Basic Firewall](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04)
 - [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
 - [#Allow MySQL Connection from Specific IP Address or Subnet](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+- [#Adjusting Your Source Server’s Firewall](https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql)
 - [How to configure ufw to forward port 80/443 to internal server hosted on LAN](https://www.cyberciti.biz/faq/how-to-configure-ufw-to-forward-port-80443-to-internal-server-hosted-on-lan/)
 - [First 5 Commands When I Connect on a Linux Server](https://www.linux.com/training-tutorials/first-5-commands-when-i-connect-linux-server/)
 - [server uptime and downtime](https://www.techtarget.com/whatis/definition/uptime-and-downtime)
