@@ -16,3 +16,4 @@ Resource
 - [ERROR 1698 (28000): Access denied for user 'root'@'localhost'](https://stackoverflow.com/questions/39281594/error-1698-28000-access-denied-for-user-rootlocalhost)
 - [ERROR 1044 (42000): Access denied for 'root' With All Privileges](https://stackoverflow.com/questions/21714869/error-1044-42000-access-denied-for-root-with-all-privileges)
 - [CREATE TABLE Statement](https://dev.mysql.com/doc/refman/5.7/en/create-table.html)
+- [Copy mysql database from one server to another server -youtube](https://www.youtube.com/watch?v=gjsdf-Pl7L8)
