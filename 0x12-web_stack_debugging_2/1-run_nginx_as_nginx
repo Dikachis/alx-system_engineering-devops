@@ -5,4 +5,4 @@ sed -i "s/80 /8080 /g" /etc/nginx/sites-available/default
 chown -R nginx:nginx /etc/nginx
 chmod 755 /etc/nginx/nginx.conf
 pkill -9 apache
-su nginx -c "service nginx res
+su nginx -c "service nginx restart"
