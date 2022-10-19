@@ -8,7 +8,7 @@ import sys
 
 
 def get_user_todo_list():
-    employee_id = sys.argv[1]
+    employee_id = int(sys.argv[1])
     url1 = 'https://jsonplaceholder.typicode.com/users/%s' % employee_id
     url2 = '%s/todos' % url1
     todo_list = requests.get(url2).json()
