@@ -1,5 +1,7 @@
 # 0x18. Webstack monitoring
 
+- [How to create Monitors with DataDog](https://linuxhint.com/creating-monitors-with-datadog/)
+
 - Installation of python pip:
 ```
 pip3 install datadog-api-client
