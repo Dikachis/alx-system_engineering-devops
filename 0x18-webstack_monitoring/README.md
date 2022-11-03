@@ -1,6 +1,7 @@
 # 0x18. Webstack monitoring
 
 - [How to create Monitors with DataDog](https://linuxhint.com/creating-monitors-with-datadog/)
+- [Datadog DashBoard](https://youtu.be/fR9sd5V6pUE)
 
 - Installation of python pip:
 ```
