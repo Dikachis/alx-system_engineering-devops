@@ -1,4 +1,4 @@
-#0x17. Web stack debugging #3
+# 0x17. Web stack debugging #3
 
 ## Background Context
 ## <p align="center">![alt text](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/image_devops/'Web stack debugging_#3.png'?raw=true)</p>
