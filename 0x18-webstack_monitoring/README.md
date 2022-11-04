@@ -1,5 +1,7 @@
 # 0x18. Webstack monitoring
 
+## <p align="center">![alt text](https://github.com/Dikachis/alx-system_engineering-devops/blob/main/image_devops/'Webstack monitoring.png'?raw=true)</p>
+
 - [How to create Monitors with DataDog](https://linuxhint.com/creating-monitors-with-datadog/)
 - [Datadog DashBoard](https://youtu.be/fR9sd5V6pUE)
 
